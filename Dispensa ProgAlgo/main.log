@@ -1,0 +1,512 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.14)  26 APR 2022 11:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/angelopassarelli/Desktop/Dispensa ProgAlgo/main.tex"
+(/Users/angelopassarelli/Desktop/Dispensa ProgAlgo/main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count193
+\mult@box=\box50
+\multicol@leftmargin=\dimen139
+\c@unbalance=\count194
+\c@collectmore=\count195
+\doublecol@number=\count196
+\multicoltolerance=\count197
+\multicolpretolerance=\count198
+\full@width=\dimen140
+\page@free=\dimen141
+\premulticols=\dimen142
+\postmulticols=\dimen143
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box51
+\last@line=\box52
+\maxbalancingoverflow=\dimen144
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@firstbox=\box55
+\mult@gfirstbox=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\c@minrows=\count199
+\c@columnbadness=\count266
+\c@finalcolumnbadness=\count267
+\last@try=\dimen145
+\multicolovershoot=\dimen146
+\multicolundershoot=\dimen147
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
+\mc@col@check@num=\count268
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.sty (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\lst@mode=\count269
+\lst@gtempboxa=\box95
+\lst@token=\toks17
+\lst@length=\count270
+\lst@currlwidth=\dimen148
+\lst@column=\count271
+\lst@pos=\count272
+\lst@lostspace=\dimen149
+\lst@width=\dimen150
+\lst@newlines=\count273
+\lst@lineno=\count274
+\lst@maxwidth=\dimen151
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count275
+\lst@skipnumbers=\count276
+\lst@framebox=\box96
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box97
+\extrarowheight=\dimen153
+\NC@list=\toks18
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box98
+)
+\rotheadsize=\dimen154
+\c@nlinenum=\count277
+\TeXr@lab=\toks19
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cprotect/cprotect.sty
+Package: cprotect 2011/01/27 v1.0e (Bruno Le Floch)
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+\CPT@WriteOut=\write3
+\c@CPT@WriteCount=\count278
+\c@CPT@numB=\count279
+\CPT@commandatend@toks=\toks20
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/commath/commath.sty (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen157
+)) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count280
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count281
+\leftroot@=\count282
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count283
+\DOTSCASE@=\count284
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box99
+\strutbox@=\box100
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count285
+\c@MaxMatrixCols=\count286
+\dotsspace@=\muskip16
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
+\tag@help=\toks23
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
+\andhelp@=\toks24
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks25
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip56
+\thm@postskip=\skip57
+\thm@headsep=\skip58
+\dth@everypar=\toks32
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+\c@theorem=\count292
+\c@lemma=\count293
+\c@corollary=\count294
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box101
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+\c@lstlisting=\count296
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count297
+\scratchdimen=\dimen166
+\scratchbox=\box102
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen167
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks34
+) (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 97.
+ (/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+) (main.toc (main-1.cpt) (main-2.cpt) (main-3.cpt) (main-4.cpt) (main-5.cpt) (main-6.cpt) [1
+
+{/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [2] (code/insertion.js
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
+) [3] (code/selection.js)
+Overfull \hbox (12.7507pt too wide) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/10 Successivamente, a par-tire dall'ultima scom-po-sizione (quindi all'inizio avremo
+ []
+
+\openout3 = `main-1.cpt'.
+
+(main-1.cpt)
+Overfull \hbox (0.27841pt too wide) in paragraph at lines 170--171
+[]\OT1/cmr/m/n/10 Successivamente ven-gono creati due ar-ray di ap-pog-gio dove saranno copiati
+ []
+
+[4] (code/merge.js) [5]
+\openout3 = `main-2.cpt'.
+
+ (main-2.cpt) [6]
+<img/random_pivot.png, id=32, 524.55975pt x 151.767pt>
+File: img/random_pivot.png Graphic file (type png)
+<use img/random_pivot.png>
+Package pdftex.def Info: img/random_pivot.png  used on input line 229.
+(pdftex.def)             Requested size: 314.73827pt x 91.06088pt.
+
+Overfull \hbox (3.7205pt too wide) in paragraph at lines 235--236
+[]\OT1/cmr/m/n/10 Quindi la com-p-lessit^^Ra dell'algoritmo al caso peg-giore sar^^Ra: $\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n=\OT1/cmr/m/n/10 4) +
+ []
+
+[7 <./img/random_pivot.png>]
+<img/albero_quicksort.png, id=41, 584.78474pt x 342.078pt>
+File: img/albero_quicksort.png Graphic file (type png)
+<use img/albero_quicksort.png>
+Package pdftex.def Info: img/albero_quicksort.png  used on input line 253.
+(pdftex.def)             Requested size: 292.39165pt x 171.03857pt.
+ (code/quicksort.js [8 <./img/albero_quicksort.png>])
+\openout3 = `main-3.cpt'.
+
+ (main-3.cpt)
+<img/costo_maxheapify.png, id=47, 411.939pt x 193.32225pt>
+File: img/costo_maxheapify.png Graphic file (type png)
+<use img/costo_maxheapify.png>
+Package pdftex.def Info: img/costo_maxheapify.png  used on input line 288.
+(pdftex.def)             Requested size: 247.16528pt x 115.99423pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+\openout3 = `main-4.cpt'.
+
+ (main-4.cpt)
+\openout3 = `main-5.cpt'.
+
+ (main-5.cpt)
+Overfull \hbox (9.74994pt too wide) in paragraph at lines 317--318
+[]\OT1/cmr/m/n/10 Quando chi-ami-amo la [][]\OT1/cmtt/m/n/10 Max-Heapify()[]\OT1/cmr/m/n/10 , il suo costo ^^Re pro-porzionale all'altezza
+ []
+
+[10 <./img/costo_maxheapify.png>]
+\openout3 = `main-6.cpt'.
+
+ (main-6.cpt) [11] (code/heapsort.js) [12] (code/counting.js) (code/radix.js) [13]
+<img/albero_decisionale.png, id=68, 246.32025pt x 121.05225pt>
+File: img/albero_decisionale.png Graphic file (type png)
+<use img/albero_decisionale.png>
+Package pdftex.def Info: img/albero_decisionale.png  used on input line 388.
+(pdftex.def)             Requested size: 246.31964pt x 121.05194pt.
+ [14 <./img/albero_decisionale.png>]
+<img/albero_master_theorem.png, id=74, 460.72125pt x 275.22826pt>
+File: img/albero_master_theorem.png Graphic file (type png)
+<use img/albero_master_theorem.png>
+Package pdftex.def Info: img/albero_master_theorem.png  used on input line 421.
+(pdftex.def)             Requested size: 368.5775pt x 220.1829pt.
+
+Overfull \hbox (23.5775pt too wide) in paragraph at lines 421--423
+ [][] 
+ []
+
+[15 <./img/albero_master_theorem.png>]
+Overfull \hbox (21.23045pt too wide) in paragraph at lines 445--446
+[]\OT1/cmr/m/n/10 Quindi se sap-pi-amo che $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 O\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 )$, al-lora $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n=b[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 O\OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 n=b[]\OT1/cmr/m/n/10 )[])$. 
+ []
+
+
+Overfull \hbox (16.91347pt too wide) in paragraph at lines 448--449
+\OT1/cmr/m/n/10 lo spezzi-amo, div-i-dendo il log-a-r-itmo con $\OML/cmm/m/it/10 ^^O$\OT1/cmr/m/n/10 : $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 n[] [] a[]\OT1/cmr/m/n/10 ([])[]$. 
+ []
+
+[16]
+Overfull \hbox (5.4625pt too wide) in paragraph at lines 476--477
+[]\OT1/cmr/m/n/10 Ora por-ti-amo fuori ci^^Ro che non dipende da $\OML/cmm/m/it/10 j$\OT1/cmr/m/n/10 : $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 n[] []\OT1/cmr/m/n/10 ([])[]$. 
+ []
+
+
+Overfull \hbox (32.23631pt too wide) in paragraph at lines 477--478
+[]\OT1/cmr/m/n/10 Adesso ap-pli-cando le pro-priet^^Ra delle potenze ab-bi-amo che: $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 n[] [] \OT1/cmr/m/n/10 1$. 
+ []
+
+
+Overfull \hbox (5.63899pt too wide) in paragraph at lines 497--498
+[]\OT1/cmr/m/n/10 Successivamente ite-ri-amo la dis-e-quazione per $\OML/cmm/m/it/10 j$ \OT1/cmr/m/n/10 volte: $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n=b[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^T \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 c=a\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$. 
+ []
+
+
+Overfull \hbox (46.22054pt too wide) in paragraph at lines 499--500
+[]\OT1/cmr/m/n/10 A questo punto pos-si-amo ef-fet-tuare il pas-sag-gio alla se-rie: $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = [] \OML/cmm/m/it/10 a[]f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n=b[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^T
+ []
+
+[17]
+Overfull \hbox (21.0549pt too wide) in paragraph at lines 500--501
+[]\OT1/cmr/m/n/10 Possiamo riscri-vere la dis-e-quazione in questo modo: $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = [] \OML/cmm/m/it/10 a[]f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n=b[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (1.1937pt too wide) in paragraph at lines 501--502
+[]\OT1/cmr/m/n/10 Adesso ^^Re pos-si-bile cal-co-lare il val-ore della se-rie: $\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = [] \OML/cmm/m/it/10 a[]f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n=b[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^T
+ []
+
+(code/linear_search.js) (code/binary_search.js) [18]
+Overfull \hbox (10.00905pt too wide) in paragraph at lines 528--536
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
+
+ []
+
+[19]
+Overfull \hbox (0.58397pt too wide) in paragraph at lines 576--577
+[]\OT1/cmr/m/n/10 Adesso pos-si-amo no-tare che la som-ma-to-ria ri-masta cor-risponde alla somma
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
+
+ []
+
+[21] [22]
+Overfull \hbox (18.25217pt too wide) in paragraph at lines 705--707
+[]\OT1/cmr/bx/n/10 Teorema 6.1 \OT1/cmr/m/n/10 (Sot-tostrut-tura ot-tima delle LCS)\OT1/cmr/bx/n/10 . []\OT1/cmr/m/it/10 Date due stringhe $\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[]; []  ; x[]$
+ []
+
+
+Overfull \hbox (0.95071pt too wide) in paragraph at lines 723--726
+[]\OT1/cmr/m/n/10 Se es-istesse una stringa $\OML/cmm/m/it/10 W$ \OT1/cmr/m/n/10 sot-tose-quenza co-mune di $\OML/cmm/m/it/10 X[]$ \OT1/cmr/m/n/10 e $\OML/cmm/m/it/10 Y$ \OT1/cmr/m/n/10 di lunghezza
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 745--746
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 749.
+(/Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 749.
+
+Underfull \hbox (badness 10000) in paragraph at lines 751--753
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--788
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--788
+
+ []
+
+[24]
+Overfull \hbox (2.87619pt too wide) in paragraph at lines 798--800
+\OT1/cmr/m/n/10 Per il Corol-lario 7.1 $\OML/cmm/m/it/10 w:d \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 u:d$\OT1/cmr/m/n/10 , quindi $\OML/cmm/m/it/10 v:d \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 w:d \OT1/cmr/m/n/10 + 1 \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 u:d \OT1/cmr/m/n/10 + 1$, $[]$.
+ []
+
+[25] [26] [27] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 5434 strings out of 478583
+ 82355 string characters out of 2830697
+ 705192 words of memory out of 3000000
+ 23486 multiletter control sequences out of 15000+600000
+ 479454 words of font info for 69 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 69i,18n,76p,489b,1773s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ </Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/wasy/dpi600/wasy10.pk> </Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt8.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Users/angelopassarelli/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (27 pages, 628254 bytes).
+PDF statistics:
+ 211 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
