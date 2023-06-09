@@ -9,7 +9,7 @@
 **Ruoli**:
 - Arbitro: allocazione delle risorse, isolamento e comunicazione tra gli utenti e le applicazione.
 - Illusionista: ogni applicazione pensa di aver l'intera macchina a disposizione con infinite risorse.
-- Collante: semplifica lo sviluppo di applicazione grazie a dei servizi standard, librerie e l'interfaccia utente.
+- Collante: semplifica lo sviluppo di applicazioni grazie a dei servizi standard, librerie e l'interfaccia utente.
 
 **Obiettivi**:
 - Affidabilità del sistema.
@@ -53,7 +53,7 @@ Istruzioni privilegiate:
 - Cambiare i bit nel *PSR*.
 
 >[!tip] Hardware Timer
->Dispositivo che periodicamente interrompe il processore. La frequenza di interruzione può essere impostata dal kernel. Inoltre gli interrupt possono essere temporaneamente ritardati (ad esempio per implementare la muta esclusione).
+>Dispositivo che periodicamente interrompe il processore. La frequenza di interruzione può essere impostata dal kernel. Inoltre gli interrupt possono essere temporaneamente ritardati (ad esempio per implementare la mutua esclusione).
 
 ### Mode Switch
 - Da livello utente al kernel: interrupt (sollevati dal timer o dai device di I/O), eccezioni, system call.
@@ -86,7 +86,7 @@ Ci sono 6 modi di operazioni, per cambiare modalità si cambiano i bit nel regis
 >In questo modo il *mode switch* è più rapido dato che non occorre salvare sullo stack il contenuto di questi registri, ma basta rendere non visibili tutte le restanti copie tranne quella che appartiene alla modalità selezionata.
 
 #### Risposta ad un'eccezione
-- Si imposta il registro LR all'indirizzo di ritorno.
+- Si imposta il registro LR all'indirizzo di ritorno (avrà il valore di PC + 4).
 - Si copia il CPSR nel registro banked SPSR.
 - Si cambiano i bit in CPSR in base alla modalità.
 - Si mappano gli appropriati registri banked per quella modalità.
@@ -96,8 +96,8 @@ Ci sono 6 modi di operazioni, per cambiare modalità si cambiano i bit nel regis
 #### Ritornare da un'eccezione
 - Si ripristina il CPSR dal registro banked SPSR e il PC dal registro banked LR, questi due step devono essere atomici.
 - Il ritorno da un'eccezione è conclusa con l'esecuzione di un'istruzione di elaborazione dati con il flag *S* impostato:
-	- Nel caso di system call abbiamo `MOVS PC, R14_svc` che corrisponde a `pc = lr_svc; cprsr = spsr_svc`. Se invece vogliamo usare lo stack all'inizio dell'handler bisogna usare `STMFD SP!, {reglist, LR}`, mentre all'uscita dell'handler `LDMFD SP!, {reglist, PC}^`, dove *^* significa che che il registro CPSR è ripristinato dal registro SPSR.
-	- Nel caso di interrupt o fast interrupt, invece, l'istruzione che stavamo eseguendo mentre è avvenuto l'interrupt, quella nel PC, non è terminata completamente, quindi occorrerà usare `SUBS PC, R14_fiq/irq, #4`, oppure se utilizziamo lo stack, all'inizio dell'handler bisognerà le seguenti due istruzioni:
+	- Nel caso di system call abbiamo `MOVS PC, R14_svc` che corrisponde a `pc = lr_svc; cprsr = spsr_svc`. Se invece vogliamo usare lo stack, all'inizio dell'handler bisogna usare `STMFD SP!, {reglist, LR}`, mentre all'uscita dell'handler `LDMFD SP!, {reglist, PC}^`, dove *^* significa che che il registro CPSR è ripristinato dal registro SPSR.
+	- Nel caso di interrupt o fast interrupt, invece, l'istruzione che stavamo eseguendo mentre è avvenuto l'interrupt, quella nel PC, non è terminata completamente, quindi occorrerà usare `SUBS PC, R14_fiq/irq, #4`, oppure se utilizziamo lo stack, all'inizio dell'handler bisognerà utilizzare le seguenti due istruzioni:
 		- `SUB LR, LR, #4`
 		- `STMFD SP!, {reglist, LR}`
 	

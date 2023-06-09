@@ -3,7 +3,7 @@
 >Quando abbiamo un processo multi-thread, tutti i thread condividono le stesse strutture dati e sono isolati dagli altri processi. Tutte le informazioni su un thread sono conservate in una struttura dati chiamata *Thread Control Block (TCB)*.
 
 ### Thread API
-- `thread_create(thread, func, args)`: crea un nuovo thread, conservo le sue info in *thread* e eseguendo *func(args)*.
+- `thread_create(thread, func, args)`: crea un nuovo thread, conservo le sue info in *thread* e eseguo *func(args)*.
 - `thread_yield()`: il thread che chiama questa funzione volontariamente rilascia il processore per consentire a qualche altro thread di essere eseguito.
 - `thread_join(thread)`: aspetta che il thread con id *thread* termini, e restituisce il suo stato di uscita. Può essere chiamata solo una volta per thread.
 - `thread_exit(exit_status)`: termina il thread corrente e archivia *exit_status* nella struttura dati del thread. Se un altro thread è in attesa su di esso con una *thread_join* lo sveglia.
@@ -30,7 +30,7 @@ La *thread_create* implementa questi passi:
 - Mette *func* e *args* sullo stack.
 - Inserisce il thread nella ready list.
 - Quando si invoca `stub(func, args)`:
-	- Si esegue `(*func)(args)*`.
+	- Si esegue `(*func)(args)`.
 	- Si chiama la `thread_exit()`.
 
 #### Thread livello kernel

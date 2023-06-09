@@ -1,11 +1,12 @@
 > [!warning] La memoria principale è vista come una cache del disco.
 
 ## Descrittore di pagina fisica
-|nr. di pagina fisica se *P = 1 * oppure indirizzo della pagina sul disco se *P = 0*| R | W | U |M | P|
-|-|-|-|--|-|-|
+
+| nr. di pagina fisica se *P = 1 * oppure indirizzo della pagina sul disco se *P = 0* | R | W | U | M | P |
+|-|-|-|-|-|-|
 
 - M -> bit modified. Impostato dall'hardware sulle istruzioni di *store*
-- B -> bit used. Impostato dall'hardware sulle istruzioni di *fetch*, *load* e *store*
+- U -> bit used. Impostato dall'hardware sulle istruzioni di *fetch*, *load* e *store*
 - R -> read
 - W -> write
 
@@ -58,7 +59,7 @@
 
 ### Nth Chance
 > Generalizzazione dell'algoritmo *Second Chance* che utilizza un intero *N* al posto del bit *R*.
-> Se la pagina è stata usata si pone la variabile a *0*, altrimenti se è *< N* si incremente, se non rispetta nessuna di queste 2 condizioni, la pagina è la vittima.
+> Se la pagina è stata usata si pone la variabile a *0*, altrimenti se è *< N* si incrementa, se non rispetta nessuna di queste 2 condizioni, la pagina è la vittima.
 
 ### Algoritmi Globali
 > La scelta della vittima è fra tutte le pagine nella memoria principale.
@@ -97,7 +98,7 @@ Due possibili implementazioni:
 
 > [!fail] Se ci sono troppi processi attivi, la somma di tutti i working set potrebbe essere maggiore della capacità della memoria, ricadendo di nuovo nel trashing.
 
->[!info] Ogni segmento di un processo è salvato su un file, che può essere permanente o temporaneo a seconda del segmento, sul disco.
+>[!info] Ogni segmento di un processo è salvato su un file sul disco, che può essere permanente o temporaneo a seconda del tipo di segmento.
 
 ## Gestione della memoria Unix
 > Memoria virtuale basata sulla paginazione on-demand.

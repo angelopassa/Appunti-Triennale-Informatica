@@ -1,5 +1,5 @@
 >[!tip] Legge di Amdahl
-> Considerando un programma in cui sono una frazione *f* può essere ottimizzata, mentre la frazione *1-f* no; lo *speedup* è comunque vincolato dalla parte del processo che non posso migliorare.
+> Considerando un programma in cui solo una frazione *f* può essere ottimizzata, mentre la frazione *1-f* no; lo *speedup* è comunque vincolato dalla parte del processo che non posso migliorare.
 
 I dispositivi di I/O hanno 2 porte:
 - **Porta di controllo**: si occupa sia dei comandi che dei report sullo stato del dispositivo.

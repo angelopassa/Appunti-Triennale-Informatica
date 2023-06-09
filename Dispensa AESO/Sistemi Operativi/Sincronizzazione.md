@@ -44,7 +44,7 @@ Ogni chiamata di una qualsiasi di queste tre funzioni deve sempre avvenire da un
 ### Semantiche: Mesa & Hoare
 - Semantica Mesa:
 	1. La procedura *signal* mette il thread in attesa nella *ready list*.
-	2. Il thread che ha invocato la *signal* contiene a mantenere in possesso il lock e il processore.
+	2. Il thread che ha invocato la *signal* continua a mantenere in possesso il lock e il processore.
 - Semantica Hoare:
 	1. La procedura *signal* rilascia il processore e il lock al thread in attesa.
 	2. Quando il processo che era in attesa termina, il processore e il lock vengono riassegnati al thread che ha invocato la *signal*.
@@ -82,7 +82,7 @@ LockRelease(){
 ### Implementazione Lock - Multiprocessore
 
 >[!abstract] Spinlock
->Uno *spinlock* è un *lock* dove il processore aspetta in un loop che un *lock* diventi libero.
+>Uno *spinlock* è un tipo di *lock* dove il processore aspetta in un loop che il *lock* diventi libero.
 >Quindi si mette in attesa attiva.
 
 ```c
@@ -99,14 +99,14 @@ SpinlockRelease(){
 }
 ```
 
-La *TestAndSet* è una funzioni che utilizza istruzioni di *Read-Modify-Write*, ovvero istruzioni che permettono, atomicamente, di leggere un dato dalla memoria, operarci sopra, e infine riscriverlo in memoria.
+La *TestAndSet* è una funzione che utilizza istruzioni di *Read-Modify-Write*, ovvero istruzioni che permettono, atomicamente, di leggere un dato dalla memoria, operarci sopra, e infine riscriverlo in memoria.
 
 Una possibile implementazione è la seguente:
 
 ```c
 SpinlockAcquire(&spinLockValue){
 	Loop:   TSL R, &spinLockValue
-			CMR R, #BUSY
+			CMP R, #BUSY
 			BEQ Loop
 			END
 }
@@ -141,12 +141,13 @@ LockRelease(){
 	}else{
 		value = FREE;
 	}
+	spinLockRelease(&spinLock);
 	enableInterrupts();
 }
 ```
 
 Come sapere quale thread è in esecuzione attualmente?
-- In un sistema con un processore singola, basti utilizzare una variabile globale.
+- In un sistema con un processore singolo, basti utilizzare una variabile globale.
 - In un sistema multiprocessore, si può o dedicare un registro specifico per processore oppure mettere un puntatore al TCB nel fondo dello stack.
 
 ### Semafori
@@ -181,11 +182,11 @@ V(sem){
 	if(!waiting.Empty()){
 		thTCB = waiting.Remove();
 		readyList.Append(thTCB);
-		// Lancia il semaforo al thread risvegliato.
+		// Lascia il semaforo al thread risvegliato.
 	}else{
 		sem.value++;
-		spinLockRelease(&spinLock);
 	}
+	spinLockRelease(&spinLock);
 	enableInterrupts();
 }
 ```
@@ -247,7 +248,7 @@ Questa azione viene chiamata di *roll-back*:
 
 #### Deadlock Prevention
 Cerca di eliminare una delle quattro condizioni per il deadlock:
-- Ordine dei lock (per evitare l'attesa circolare): consiste nell'acquisire i lock sempre nello stesso ordine, per esemprio acquisirle sempre in ordine alfabetico.
+- Ordine dei lock (per evitare l'attesa circolare): consiste nell'acquisire i lock sempre nello stesso ordine, per esempio acquisirle sempre in ordine alfabetico.
 - Progettare il sistema per far in modo di rilasciare le risorse e riprovare a riacquisirle. Oppure si cerca di acquisire tutte le risorse necessarie in anticipo. In questo modo viene evitata la *wait while holding*. L'unico limite è che il processo dovrebbe conoscere in anticipo tutte le risorse che necessita.
 - Alcuni device possono essere gestiti da uno *spool*, ovvero una risorsa viene virtualizzata, creando infinite istanze di quella risorsa. In questo modo non abbiamo più mutua esclusione, dato che la risorsa è assegnata allo *spool* e il processo effettua la richiesta allo *spool* stesso. L'unico problema è che possiamo comunque avere deadlock se il buffer usato dallo *spool* per la gestione dei processi in coda si riempie.
 

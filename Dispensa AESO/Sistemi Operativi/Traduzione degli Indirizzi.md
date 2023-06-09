@@ -6,10 +6,10 @@
 	- **Best-fit**: fra tutte le partizioni libere si sceglie la più piccola che sia grande abbastanza per allocare quella nuova.
 
 > [!error] Frammentazione Interna
-> Memoria allocata ad una partizione ma non necessaria al processo. Succede nel caso vengono usate partizioni di lunghezza fissa.
+> Memoria allocata ad una partizione ma non tutta è necessaria al processo. Succede nel caso vengono usate partizioni di lunghezza fissa.
 
 > [!error] Frammentazione Esterna
-> Le partizioni di memoria libere sono troppo piccoli, anche se la loro somma è sufficiente, per allocare una nuova partizione. Succede nel caso vengono usate partizioni di lunghezza variabile.
+> Le partizioni di memoria libere sono troppo piccole, anche se la loro somma è sufficiente, per allocare una nuova partizione. Succede nel caso vengono usate partizioni di lunghezza variabile.
 
 ## Base + Bound
 - Nella MMU risiedono 2 registri:
@@ -50,7 +50,7 @@
 > [!warning] Se la lunghezza delle pagine è troppo piccola, la tabella diventa troppo grande, mentre se la lunghezza è troppo grande si può verificare frammentazione interna, nel caso non abbiamo bisogno di tutto lo spazio dentro un *chunk*.
 
 >[!info] Core Map
->Per far condividere stesse page frames a processi diversi, si utilizza una struttura dati chiamata *core map* che indica per ogni page frame quali processi puntano ad essa.
+> Tabella che indica per ogni page frame, se è libero o è occupato in memoria, e riporta tutti gli indirizzi virtuali con i rispettivi processi che puntano a quel frame.
 
 > [!tip] Fast Program Start
 > Permette di eseguire un programma prima che il suo codice sia in memoria.
@@ -76,6 +76,7 @@
 > - E' una cache che associa le recenti pagine virtuali alla loro traduzione in pagine fisiche.
 > - In caso di cache hit (deve corrispondere anche l'ID del processo) si utilizza il valore nella *TLB*, altrimenti si percorre la tabella delle pagine.
 > - La *TLB* si trova nella *MMU*.
+> - La cache è completamente associativa e il numero di blocchi per linea di cache può essere al massimo 2 (località spaziale non sfruttata, solo temporale).
 
 > [!abstract] Superpagine
 > Le superpagine sono un insieme di pagine continue.

@@ -58,6 +58,7 @@ $$GlobalMissRate_{LN} = MissRate_{L1} \cdot MissRate_{L2} \cdot\;\dots \;\cdot M
 >Le parole di memoria possono essere posizionate solo in 1 linea della cache.
 
 Un'indirizzo di memoria è formato come segue:
+
 |TAG|Nr. Linea|Offset di Blocco|Byte Offset|
 |-|-|-|-|
 
@@ -68,9 +69,10 @@ Un'indirizzo di memoria è formato come segue:
 #### Cache Completamente Associative
 >Le parole di memoria possono risiedere in qualunque linea della cache.
 
-Quindi per trovare un dato indirizzo occorre cercare in tutte le sue linee, in parallelo, dato che ogni linea ha un comparatore, quindi a livello hardware il costo è significativo.
+Quindi per trovare un dato indirizzo occorre cercare in tutte le sue linee, in parallelo, dato che ogni linea ha un comparatore a livello hardware il costo è significativo.
 
 Un'indirizzo di memoria è formato come segue:
+
 |TAG|Offset di Blocco|Byte Offset|
 |-|-|-|
 
@@ -80,6 +82,7 @@ Un'indirizzo di memoria è formato come segue:
 Per trovare un dato indirizzo, occorre cercare in parallelo ma solo sulle *N* linee del suo set.
 
 Un'indirizzo di memoria è formato come segue:
+
 |TAG|Nr. Set|Offset di Blocco|Byte Offset|
 |-|-|-|-|
 
@@ -111,7 +114,7 @@ Due casi:
 >In caso di *write miss* utilizza la *write-allocate*.
 
 >[!warning] Dirty Bit
->Occorre tenere traciia dei blocchi modificati tramite l'uso di un *dirty bit*.
+>Occorre tenere traccia dei blocchi modificati tramite l'uso di un *dirty bit*.
 >Inoltre, nel caso si verifica un write miss, il costo di scrittura è maggiore dato che, se il *dirty bit* del blocco che và sostitutito è a *1* bisogna prima riscrivere il blocco in memoria e successivamente possiamo spostare il nuovo blocco nella cache.
 
 ### Politiche di sostituzione
@@ -141,7 +144,7 @@ Ci sono 3 possibili orgnanizzazioni:
 
 Questo può provocare problemi quando prima leggiamo lo stesso dato su tutti i nostri core e poi uno di questi processori lo riscrive; utilizzando una politica *write-through* le modifiche arriveranno fino alla memoria centrale, ma non passeranno nelle cache che si trovano nello stesso livello.
 
-Per risolvere questo problema è possibile usare uno *snooping bus control*
+Per risolvere questo problema è possibile usare uno *snooping bus control*.
 
 ### Ottimizzazioni Software
 Lato software, per migliorare la località spaziale è possibile utilizzare dei *loop interchange*, mentre per quella temporale si usa una tecnica di *data blocking*.

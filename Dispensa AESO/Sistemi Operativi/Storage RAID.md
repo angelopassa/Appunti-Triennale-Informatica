@@ -6,7 +6,7 @@
 > - Si sfrutta il parallelismo per memorizzare blocchi dello stesso file per migliorare la velocità
 > - Si sfrutta la ridondanza per accrescere l'affidabilità
 
-> [!info] Se ho un totale di *n* dischi fisici, il settore *b* del disco virtuale viene mappato nel settore *b / 3* del disco fisico numero *b mod n*
+> [!info] Se ho un totale di *n* dischi fisici, il settore *b* del disco virtuale viene mappato nel settore *b / n* del disco fisico numero *b mod n*
 
 ## RAID 0
 - Nessuna ridondanza (*striping*).
@@ -39,4 +39,4 @@
 
 ## RAID 10 *(stripes di mirror)*
 - Gruppi di RAID 1 che realizzano un RAID 0.
-- Migliore tolleranza ai guasti rispetto ai RAID 01, dato che se si guastano due dischi qualsiasi in gruppi diversi il sistema può continuare a funzionare (i dischi dello stesso gruppo sono non sono indipendenti).
+- Migliore tolleranza ai guasti rispetto ai RAID 01, dato che se si guastano due dischi qualsiasi in gruppi diversi il sistema può continuare a funzionare (i dischi dello stesso gruppo non sono indipendenti).
