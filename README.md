@@ -3,4 +3,4 @@ Appunti, Dispense e Cheatsheets per i corsi della laurea triennale in Informatic
 
 I documenti già compilati sono tutti rinominati come 'main.pdf'.
 
-I file .md devono essere aperti con [Obsidian](https://obsidian.md/) per poter essere visibili al meglio.
+I file `.md` devono essere aperti con [Obsidian](https://obsidian.md/) per poter essere visibili al meglio.
